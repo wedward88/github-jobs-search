@@ -1,0 +1,110 @@
+.section-head {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.nav-buttons {
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-buttons button {
+    width: auto;
+    height: 28px;
+    box-shadow: none;
+    background-color: white;
+    border-radius: 0;
+    padding: 0px;
+    margin: 0px 10px;
+}
+
+.nav-buttons button:hover {
+    border-bottom: 3px solid black;
+    color: black;
+}
+
+.job-results {
+    margin-top: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: scroll;
+}
+
+.job-results > h1 {
+    margin-bottom: 20px;
+}
+
+.listing {
+    height: 100%;
+    width: 60vw;
+    color: #757575;
+    border-bottom: 1px solid black;
+}
+
+.inactive-listing:hover {
+    cursor: pointer;
+    background-color: #f3f3f3;
+}
+
+
+.listing > h2:hover {
+    color: black;
+} 
+
+.active-listing {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+}
+
+.active-listing img {
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 100px;
+    width: auto;
+}
+
+.active-listing > h2 {
+    color: black;
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.active-listing > h2:hover {
+    cursor: pointer;
+}
+
+.listing > h2 {
+    font-size: 20px;
+    padding: 30px 0px;
+}
+
+.listing:only-child {
+    padding: 40px 0px 10px 0px;
+}
+
+.listing-details, .listing-apply {
+    font-size: 17px;
+    padding: 0px 40px;
+}
+
+.listing-details ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+.listing-details > * {
+    padding: 20px 0px;
+}
+
+.listing > h3, .listing-apply {
+    color: black;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}

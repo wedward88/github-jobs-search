@@ -1,0 +1,65 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 275px;
+    width: 30vw;
+}
+
+form input[type='search'] {
+    height: 30px;
+    padding: 25px 0px;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #757575;
+    width: 100%;
+}
+
+form input:focus {
+    outline: none;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    color: #757575;
+}
+
+.check-box input[type='checkbox'] {
+    -webkit-appearance:none;
+    width: 15px;
+    height: 15px;
+    background-color:white;
+    border-radius: 5px;
+    border: 2px solid #757575;
+}
+
+.check-box input[type='checkbox']:checked {
+    background-color: lightcoral;
+}
+
+button {
+    height: 50px;
+    width: 50%;
+    color: #757575;
+    background-color: #dfdfdf;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: black 2px 4px 8px -4px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
